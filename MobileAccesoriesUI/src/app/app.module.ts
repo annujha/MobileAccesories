@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { BackCoverComponent } from './back-cover/back-cover.component';
 import { TemperedGlassComponent } from './tempered-glass/tempered-glass.component';
 import { MobileAccesoriesComponent } from './mobile-accesories/mobile-accesories.component';
+import { CartComponent } from './cart/cart.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { MobileAccesoriesComponent } from './mobile-accesories/mobile-accesories
     HomeComponent,
     BackCoverComponent,
     TemperedGlassComponent,
-    MobileAccesoriesComponent
+    MobileAccesoriesComponent,
+    CartComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
